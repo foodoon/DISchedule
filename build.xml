@@ -4,7 +4,7 @@
   <target name="main">
     <delete dir="ScheduleConsole"/>
     <copy todir="ScheduleConsole">
-	<fileset dir="./src/WebRoot">
+	<fileset dir="src/main/webapp">
 	  <exclude name=".svn"/>
 	</fileset>
     </copy>
